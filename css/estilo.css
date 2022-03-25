@@ -60,6 +60,10 @@ body{
     animation: neon 2s ease-in-out infinite alternate;
      
 }
+.nav-item a:hover {
+    text-decoration: dashed;
+    color: mediumpurple;
+}
 
 @keyframes slide{
     0%{
@@ -144,5 +148,8 @@ footer p{
     font-size: 18px; 
     color: rgb(144, 208, 212);
     animation: neon 2s ease-in-out infinite alternate;
-    
+}
+.icon-link:hover {
+    text-decoration: dashed;
+    color: mediumpurple;
 }
